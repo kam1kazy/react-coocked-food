@@ -5,7 +5,6 @@ export const NumberButton = styled.a`
   justify-content: center;
   align-items: center;
 
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24.38px;
@@ -14,8 +13,8 @@ export const NumberButton = styled.a`
   width: 280px;
   height: 52px;
 
-  border-radius: 190px;
   background-color: #f5faff;
+  border-radius: 190px;
   box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
   color: #64d370;
 

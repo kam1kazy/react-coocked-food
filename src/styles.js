@@ -3,17 +3,63 @@ import { createGlobalStyle } from 'styled-components'
 import 'normalize.css'
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F5FAFF;
+    overflow-x: hidden;
+    
+    scroll-timeline: --the-scroller;
+  }
+  nav {
+    font-family: 'Montserrat', sans-serif; /* add this line */
   }
 
   
   ul {
     margin: 0;
+    padding: 0;
+    list-style: none;
   }
+
+  .color-{
+    &brand {
+      color: #64d370;
+    }
+
+    &orange {
+      color: #d38f64;
+    }
+    
+    &blue {
+      color: #64c2d3;
+    }
+
+    &red {
+      color: #d36494;
+    }
+
+    &yellow {
+      color: #d3c864;
+    }
+
+    &pink {
+      color: #cd64d3;
+    }
+  }
+
+  p {
+    padding: 0;
+  }
+
+  a {
+    cursor: pointer;
+  }
+  
 `
 
 export const Container = styled.div`

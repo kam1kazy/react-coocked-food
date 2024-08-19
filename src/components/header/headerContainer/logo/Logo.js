@@ -5,7 +5,7 @@ function LogoComponent() {
   return (
     <LogoContainer>
       <LogoImage src='./assets/images/logo.png' alt='Logo' />
-      <LogoText>Healthy Ration</LogoText>
+      <LogoText>healthy ration</LogoText>
     </LogoContainer>
   )
 }
