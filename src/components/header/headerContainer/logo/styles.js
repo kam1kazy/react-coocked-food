@@ -10,13 +10,17 @@ export const LogoContainer = styled.div`
       transform: scale(1);
       left: 0;
     }
+    75% {
+      transform: scale(0.4);
+      left: -60px;
+    }
     85% {
-      transform: scale(0.6);
-      left: -40px;
+      transform: scale(0.4);
+      left: -60px;
     }
     to {
-      transform: scale(0.6);
-      left: -40px;
+      transform: scale(0.4);
+      left: -60px;
     }
   }
 

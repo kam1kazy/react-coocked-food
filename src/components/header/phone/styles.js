@@ -17,6 +17,7 @@ export const NumberButton = styled.a`
   border-radius: 190px;
   box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
   color: #64d370;
+  transition: color 0.3s ease-in-out;
 
   &:hover {
     color: #020202;

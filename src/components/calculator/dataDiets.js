@@ -2439,7 +2439,6 @@ export const data = [
           },
         ],
       },
-
       {
         id: 7,
         name: 'maxi fit',

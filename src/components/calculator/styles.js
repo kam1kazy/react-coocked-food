@@ -26,7 +26,7 @@ export const ProgramsTab = styled.a`
   color: #000000;
   text-decoration: none;
 
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
   &:hover {
     box-shadow: 0px 0px 30px 0px rgb(86 86 86 / 0.2);
@@ -56,6 +56,8 @@ export const ModeItem = styled.li`
   font-family: Montserrat;
   line-height: 17.07px;
   text-align: center;
+
+  transition: color 0.3s ease-in-out;
 
   cursor: pointer;
 
@@ -98,6 +100,8 @@ export const WeekDay = styled.li`
   line-height: 27.88px;
   text-transform: uppercase;
   cursor: pointer;
+
+  transition: color 0.3s ease-in-out;
 
   &.selected {
     color: #64d370;

@@ -23,6 +23,7 @@ function Calculator() {
   const [selectedProgram, setSelectedProgram] = useState(1)
   const [selectedMode, setSelectedMode] = useState(1)
   const [selectedWeekDay, setSelectedWeekDay] = useState('Понедельник')
+  const [currentData, setCurrentData] = useState(data)
 
   const handleProgramSelect = (id) => {
     setSelectedProgram(id)
@@ -46,14 +47,22 @@ function Calculator() {
     7: { fullName: 'Воскресенье', shortName: 'Вс' },
   }
 
-  const mealSettings = data[selectedProgram - 1].plans[
-    selectedMode - 1
-  ].days.find((day) => day.day === selectedWeekDay).meals
+  // const mealSettings =
+  //   data[selectedProgram - 1]
+  //   .plans[selectedMode - 1]
+  //   .days.find((day) => day.day === selectedWeekDay)
+  //   .meals
+
+  // mealSettings.forEach((meal, index) => {})
+
+  const mealSettings = currentData.plans.days.find(
+    (day) => day.day === selectedWeekDay
+  ).meals
 
   return (
     <Container>
       <ProgramsTabs>
-        {data.map((item) => (
+        {currentData.map((item) => (
           <ProgramsTab
             key={item.id}
             className={item.id === selectedProgram ? 'selected' : ''}
@@ -65,7 +74,7 @@ function Calculator() {
       </ProgramsTabs>
 
       <ModeList>
-        {data[0].plans.map((item) => (
+        {currentData[selectedProgram].plans.map((item, index) => (
           <ModeItem
             key={item.id}
             className={item.id === selectedMode ? 'selected' : ''}

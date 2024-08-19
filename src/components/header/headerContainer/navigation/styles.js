@@ -13,11 +13,20 @@ export const NavigationList = styled.nav`
     from {
       gap: 40px;
     }
-    50% {
+    30% {
       gap: 40px;
     }
+    45% {
+      gap: 45px;
+    }
+    60% {
+      gap: 65px;
+    }
+    80% {
+      gap: 75px;
+    }
     to {
-      gap: 55px;
+      gap: 75px;
     }
   }
 
@@ -31,6 +40,7 @@ export const NavigationItem = styled.li`
   line-height: 18.73px;
   color: #020202;
   cursor: pointer;
+  transition: color 0.3s ease-in-out;
 
   &:hover {
     color: #64d370;
