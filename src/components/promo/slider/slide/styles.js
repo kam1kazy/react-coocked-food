@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Container } from '../../../../styles'
+import { boxShadow, typography, colors, flex } from '../../../../_variableStyle'
 
 export const SlideItem = styled.div`
   position: absolute;
@@ -18,18 +19,21 @@ export const SlideItem = styled.div`
 
 export const SlideLeft = styled.div`
   padding: 20px;
+  margin-left: 20px;
 
   ${Container} {
     margin-top: 347px;
+
+    .wrapper {
+      max-width: max-content;
+    }
   }
 `
 
 export const SlideHeader = styled.h2`
+  ${typography('Comfortaa', '700', '40px', '44px')}
+
   max-width: 550px;
-  font-family: Comfortaa;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 44.6px;
   letter-spacing: 0.025em;
   text-align: left;
   pointer-events: none;
@@ -37,10 +41,8 @@ export const SlideHeader = styled.h2`
 `
 
 export const SlideDescription = styled.p`
-  font-family: Montserrat;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 26.76px;
+  ${typography('', '400', '26px', '26px')}
+
   text-align: left;
   margin: 15px 5px 0;
   pointer-events: none;
@@ -53,50 +55,65 @@ export const SlideOrder = styled.div`
 `
 
 export const SlidePrice = styled.p`
-  font-size: 20px;
-  line-height: 26.76px;
+  ${typography('', '', '20px', '26px')}
   pointer-events: none;
 
   span {
+    ${typography('', '700', '35px', '35px')}
+    ${colors.brand}
     display: block;
-    color: #64d370;
-    font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 35px;
   }
 `
 
 export const SlideButton = styled.span`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  ${flex('', 'center', 'center')};
+  ${boxShadow()}
+  ${typography('Comfortaa', '700', '26px', '')}
 
-  font-family: Comfortaa;
-  font-size: 26px;
-  color: #f5faff;
-  background: #64d370;
+  background-color: ${colors.background};
+  color: ${colors.primary};
+
   width: 280px;
   height: 60px;
-  border-radius: 190px;
-  box-shadow: 0px 0px 40px 0px #5656564d;
+  border-radius: var(--borderRadius);
 
   cursor: pointer;
 `
 
 export const SlideRight = styled.div`
   position: absolute;
+  top: 542px;
+  left: ${(props) => (props.left ? props.left : '690px')};
+
+  border-radius: 100%;
   transform: translateY(-50%);
-  background: #64d370;
+
+  ${boxShadow()}
+
   width: 1321px;
   height: 1290px;
-  top: 542px;
-  left: 965px;
-  border-radius: 100%;
-  box-shadow: 0px 0px 40px 0px #56565666;
+
+  transition: left 0.5s ease-out;
 `
 
 export const Circle = styled.div`
+  position: absolute;
+  top: 298px;
+  left: 186px;
+  width: 694px;
+  height: 690px;
+
+  ${boxShadow(30, '')}
+  background: #fff;
+
+  border-radius: 100%;
+  border: 35px solid #fff;
+  box-sizing: border-box;
+
+  transition: top 2s ease-in-out;
+
+  /* Анимация круга с картинкой в промо */
+
   @keyframes slide {
     from {
       top: 298px;
@@ -108,22 +125,6 @@ export const Circle = styled.div`
       top: 360px;
     }
   }
-
-  position: absolute;
-  width: 694px;
-  height: 690px;
-  top: 298px;
-  left: 186px;
-  background: #fff;
-  border-radius: 100%;
-  border: 35px solid #fff;
-  box-shadow: 0px 0px 30px 0px #5656564d;
-  box-sizing: border-box;
-
-  transition: top 2s ease-in-out;
-
-  /* Анимация круга с картинкой в промо */
-
   animation: slide auto linear;
   animation-timeline: scroll();
 `
@@ -133,4 +134,5 @@ export const CircleImage = styled.img`
   height: 100%;
   object-fit: cover;
   border-radius: 100%;
+  min-height: 620px;
 `

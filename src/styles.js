@@ -1,65 +1,66 @@
 import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
-import 'normalize.css'
+import { colors, typography, device, sizeContainer } from './_variableStyle'
 
+// global style
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    --borderRadius: 190px;
+  }
 
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5FAFF;
+    font-family: ${typography.family};
+    background-color: ${colors.background};
     overflow-x: hidden;
-    
-    scroll-timeline: --the-scroller;
-  }
-  nav {
-    font-family: 'Montserrat', sans-serif; /* add this line */
+    scroll-timeline: --the-scroller y;
   }
 
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  a, li, nav, ul, p, h1, h2, h3, h4, h5, h6 {
+    ${typography()}
+  }
+
+  a {
+    ${typography('', '700', '20px', '24px')}
+
+    text-decoration: none;
+    cursor: pointer;
+
+    &[href^="tel:"] {
+      text-decoration: none;
+      color: ${colors.brand};
+    }
   }
 
   .color-{
     &brand {
-      color: #64d370;
+      color: ${colors.brand};
     }
 
-    &orange {
-      color: #d38f64;
-    }
-    
     &blue {
-      color: #64c2d3;
+      color: ${colors.blue};
     }
 
-    &red {
-      color: #d36494;
+    &red {  
+      color: ${colors.red};
     }
 
     &yellow {
-      color: #d3c864;
+      color: ${colors.yellow};
     }
 
-    &pink {
-      color: #cd64d3;
+    &pink {   
+      color: ${colors.pink};
     }
-  }
 
-  p {
-    padding: 0;
-  }
+    &orange {
+      color: ${colors.orange};
+    }
 
-  a {
-    cursor: pointer;
   }
-  
 `
 
 export const Container = styled.div`
@@ -67,25 +68,25 @@ export const Container = styled.div`
   padding: 10px;
   width: 100%;
 
-  @media (min-width: 480px) {
-    width: 320px;
-  }
+  ${Object.keys(device)
+    .map((key, index) => {
+      const currentSizeContainerKey = Object.keys(sizeContainer).find(
+        (sizeKey) => sizeKey === key
+      )
+      const previousSizeContainerKey =
+        sizeContainer[
+          Object.keys(sizeContainer).indexOf(currentSizeContainerKey) - 1
+        ]
+      const width = previousSizeContainerKey
+        ? sizeContainer[previousSizeContainerKey]
+        : sizeContainer[key]
 
-  @media (min-width: 576px) {
-    width: 480px;
-  }
-
-  @media (min-width: 768px) {
-    width: 576px;
-  }
-
-  @media (min-width: 992px) {
-    width: 768px;
-    padding: 20px;
-  }
-
-  @media (min-width: 1180px) {
-    width: 1180px;
-    padding: 30px;
-  }
+      return `
+      @media ${device[key]} {
+        width: ${width};
+        ${key === 'laptop' || key === 'laptopL' ? 'padding: 20px;' : ''}
+      }
+    `
+    })
+    .join('')}
 `

@@ -1,28 +1,27 @@
 import styled from 'styled-components'
+import { colors, flex, typography } from '../../../../_variableStyle'
 
 export const NavigationList = styled.nav`
-  list-style: none;
+  ${flex('row', 'center', 'flex-end')}
+
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: flex-end;
-  gap: 40px;
-  padding-right: 40px;
 
+  padding-right: 40px;
+  gap: 40px;
+
+  list-style: none;
   @keyframes gap {
     from {
       gap: 40px;
     }
-    30% {
+    5% {
       gap: 40px;
     }
-    45% {
-      gap: 45px;
+    20% {
+      gap: 55px;
     }
-    60% {
-      gap: 65px;
-    }
-    80% {
+    30% {
       gap: 75px;
     }
     to {
@@ -35,14 +34,12 @@ export const NavigationList = styled.nav`
 `
 
 export const NavigationItem = styled.li`
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18.73px;
-  color: #020202;
+  ${typography('', '', '14px', '18px')};
+  color: ${colors.primary};
   cursor: pointer;
-  transition: color 0.3s ease-in-out;
+  transition: var(--transition);
 
   &:hover {
-    color: #64d370;
+    color: ${colors.brand};
   }
 `

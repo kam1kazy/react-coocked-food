@@ -9,13 +9,21 @@ function PaginationItem({ slideIcon, link, flexDirection, imgAlt }) {
       {Array.isArray(slideIcon) ? (
         slideIcon.map((icon, index) =>
           /\.\//.test(icon) ? (
-            <PaginIcon key={index} src={icon} alt={imgAlt} />
+            <figure key={index}>
+              <picture>
+                <PaginIcon src={icon} alt={imgAlt} />
+              </picture>
+            </figure>
           ) : (
             <PaginText>{slideIcon}</PaginText>
           )
         )
       ) : /\.\//.test(slideIcon) ? (
-        <PaginIcon src={slideIcon} alt={imgAlt} />
+        <figure>
+          <picture>
+            <PaginIcon src={slideIcon} alt={imgAlt} />
+          </picture>
+        </figure>
       ) : (
         <PaginText>{slideIcon}</PaginText>
       )}

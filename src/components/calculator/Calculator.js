@@ -1,115 +1,79 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 // Data
-import { data } from './dataDiets'
+import { data } from './_dataDiets'
 
 // Components
 import MealItem from './meals/Meals'
+import WeekDaysComponent from './weekDays/WeekDays'
+import ModeListComponent from './modeList/ModeList'
+import ProgramsTabsComponent from './programsTabs/ProgramsTabs'
 
 // Styles
-import {
-  ProgramsTabs,
-  ProgramsTab,
-  ModeList,
-  ModeItem,
-  WeekDays,
-  WeekDay,
-  ModeItemName,
-  Meals,
-} from './styles'
+import { Meals, Calculator } from './styles'
 import { Container } from '../../styles'
 
-function Calculator() {
+function CalculatorComponent() {
   const [selectedProgram, setSelectedProgram] = useState(1)
   const [selectedMode, setSelectedMode] = useState(1)
-  const [selectedWeekDay, setSelectedWeekDay] = useState('Понедельник')
-  const [currentData, setCurrentData] = useState(data)
+  const [selectedWeekDay, setSelectedWeekDay] = useState(1)
+  const [currentData, setCurrentData] = useState([])
+  const [mealSettings, setMealSettings] = useState([])
 
-  const handleProgramSelect = (id) => {
-    setSelectedProgram(id)
+  const prevData = useRef(data)
+
+  useEffect(() => {
+    if (prevData.current !== data) {
+      setCurrentData(data)
+      prevData.current = data
+    }
+  }, [])
+
+  // Рендер плана на день
+  const renderMeals = () => {
+    const dayList =
+      prevData.current[selectedProgram - 1].plans[selectedMode - 1].days[
+        selectedWeekDay
+      ].meals
+
+    return dayList.map((item, index) => {
+      return <MealItem key={index} array={item} />
+    })
   }
-
-  const handleModeSelect = (id) => {
-    setSelectedMode(id)
-  }
-
-  const handleWeekDaySelect = (fullName) => {
-    setSelectedWeekDay(fullName)
-  }
-
-  const weekDaysList = {
-    1: { fullName: 'Понедельник', shortName: 'Пн' },
-    2: { fullName: 'Вторник', shortName: 'Вт' },
-    3: { fullName: 'Среда', shortName: 'Ср' },
-    4: { fullName: 'Четверг', shortName: 'Чт' },
-    5: { fullName: 'Пятница', shortName: 'Пт' },
-    6: { fullName: 'Суббота', shortName: 'Сб' },
-    7: { fullName: 'Воскресенье', shortName: 'Вс' },
-  }
-
-  // const mealSettings =
-  //   data[selectedProgram - 1]
-  //   .plans[selectedMode - 1]
-  //   .days.find((day) => day.day === selectedWeekDay)
-  //   .meals
-
-  // mealSettings.forEach((meal, index) => {})
-
-  const mealSettings = currentData.plans.days.find(
-    (day) => day.day === selectedWeekDay
-  ).meals
 
   return (
-    <Container>
-      <ProgramsTabs>
-        {currentData.map((item) => (
-          <ProgramsTab
-            key={item.id}
-            className={item.id === selectedProgram ? 'selected' : ''}
-            onClick={() => handleProgramSelect(item.id)}
-          >
-            {item.name}
-          </ProgramsTab>
-        ))}
-      </ProgramsTabs>
+    <Calculator>
+      <Container>
+        {/* Планы питания */}
+        <ProgramsTabsComponent
+          prevData={prevData}
+          selectedProgram={selectedProgram}
+          setSelectedProgram={setSelectedProgram}
+        />
 
-      <ModeList>
-        {currentData[selectedProgram].plans.map((item, index) => (
-          <ModeItem
-            key={item.id}
-            className={item.id === selectedMode ? 'selected' : ''}
-            onClick={() => handleModeSelect(item.id)}
-          >
-            <ModeItemName>{item.name}</ModeItemName>
-            {item.sumСal}
-          </ModeItem>
-        ))}
-      </ModeList>
+        {/* Готовые сеты */}
+        <ModeListComponent
+          prevData={prevData}
+          selectedMode={selectedMode}
+          selectedProgram={selectedProgram}
+          selectedModeList={mealSettings}
+          setSelectedMode={setSelectedMode}
+        />
 
-      <WeekDays>
-        {Object.values(weekDaysList).map((item) => (
-          <WeekDay
-            key={item.fullName}
-            className={item.fullName === selectedWeekDay ? 'selected' : ''}
-            onClick={() => handleWeekDaySelect(item.fullName)}
-          >
-            {item.shortName}
-          </WeekDay>
-        ))}
-      </WeekDays>
+        {/* Дни недели */}
+        <WeekDaysComponent
+          prevData={prevData}
+          setSelectedWeekDay={setSelectedWeekDay}
+          selectedWeekDay={selectedWeekDay}
+          selectedProgram={selectedProgram}
+          selectedMode={selectedMode}
+        />
 
-      <Meals>
-        {mealSettings.map((meal, index) => (
-          <MealItem
-            key={index}
-            time={meal.time}
-            dishes={meal.dishes}
-            weight={meal.weight}
-          />
-        ))}
-      </Meals>
-    </Container>
+        {/* Расписание на день */}
+        <Meals>{renderMeals()}</Meals>
+      </Container>
+    </Calculator>
   )
 }
 
-export default Calculator
+export default CalculatorComponent

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 
 // Styles
 import {
@@ -26,34 +26,65 @@ function SlideComponent({
   slideButton,
   slideSale,
 }) {
+  const slideLeftRef = useRef(null)
+  const slideRightRef = useRef(null)
+
+  // Большой зеленый шар, всегда чуть правее от текста
+  useEffect(() => {
+    if (slideLeftRef.current && slideRightRef.current) {
+      const slideLeftWidth = slideLeftRef.current.offsetWidth
+
+      const slideRightLeftOffset = slideLeftWidth + 140
+
+      slideRightRef.current.style.left = `${slideRightLeftOffset}px`
+    }
+  }, [slideLeftRef, slideRightRef])
+
   return (
     <SlideItem id={id}>
-      <SlideLeft>
-        {/* Тут текст слайдера */}
-        <Container>
-          {/* Передаю в формате html */}
-          <SlideHeader dangerouslySetInnerHTML={{ __html: slideTitle }} />
-          <SlideDescription
-            dangerouslySetInnerHTML={{ __html: slideDescription }}
-          />
+      {/* Тут текст слайдера */}
 
-          {/* Кнопка с ценой */}
-          <SlideOrder>
-            <SlideButton
-              dangerouslySetInnerHTML={{ __html: slideButton.text }}
+      <SlideLeft>
+        <Container>
+          <div ref={slideLeftRef} className='wrapper'>
+            {/* Передаю в формате html */}
+            <SlideHeader dangerouslySetInnerHTML={{ __html: slideTitle }} />
+            <SlideDescription
+              dangerouslySetInnerHTML={{ __html: slideDescription }}
             />
 
-            <SlidePrice>
-              {slideSale.name}
-              <span>{slideSale.price}</span>
-            </SlidePrice>
-          </SlideOrder>
+            {/* Кнопка с ценой */}
+            <SlideOrder>
+              <SlideButton
+                dangerouslySetInnerHTML={{ __html: slideButton.text }}
+              />
+
+              <SlidePrice>
+                {slideSale.name}
+                <span>{slideSale.price}</span>
+              </SlidePrice>
+            </SlideOrder>
+          </div>
         </Container>
       </SlideLeft>
+
       {/* Большой зеленый круг */}
-      <SlideRight>
+      <SlideRight
+        ref={slideRightRef}
+        left={
+          slideRightRef.current ? slideRightRef.current.offsetLeft : '690px'
+        }
+      >
         <Circle>
-          <CircleImage src={slideImage} alt={removeLastChar(slideSale.name)} />
+          <figure>
+            <picture>
+              <CircleImage
+                src={slideImage}
+                alt={removeLastChar(slideSale.name)}
+                loading='lazy'
+              />
+            </picture>
+          </figure>
         </Circle>
       </SlideRight>
     </SlideItem>

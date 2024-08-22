@@ -1,11 +1,13 @@
 import styled from 'styled-components'
+import { flex } from '../../../_variableStyle'
 
 export const PaginList = styled.ul`
+  ${flex('column', '', '')}
+
   position: absolute;
-  left: 50px;
+  left: 25px;
   top: 215px;
   gap: 50px;
-  display: flex;
-  flex-direction: column;
+
   z-index: 1;
 `

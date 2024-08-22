@@ -2855,8 +2855,7 @@ export const data = [
       {
         id: 1,
         name: 'Express Fit',
-
-        sumСal: '800 ккал',
+        sumСal: '1800 ккал',
         days: [
           {
             id: 1,
@@ -2866,14 +2865,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -2886,29 +2885,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -2923,14 +2922,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -2943,29 +2942,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -2980,14 +2979,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3000,29 +2999,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3037,14 +3036,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3057,29 +3056,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3094,14 +3093,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3114,29 +3113,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3151,14 +3150,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -3171,29 +3170,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3208,14 +3207,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3228,29 +3227,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3262,8 +3261,7 @@ export const data = [
       {
         id: 2,
         name: 'slim',
-
-        sumСal: '800 ккал',
+        sumСal: '8200 ккал',
         days: [
           {
             id: 1,
@@ -3273,14 +3271,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3293,29 +3291,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -3330,14 +3328,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -3350,29 +3348,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3387,14 +3385,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3407,29 +3405,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3444,14 +3442,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3464,29 +3462,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3501,14 +3499,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3521,29 +3519,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3558,14 +3556,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -3578,29 +3576,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3615,14 +3613,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3635,29 +3633,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3679,14 +3677,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3699,29 +3697,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -3736,14 +3734,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -3756,29 +3754,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3793,14 +3791,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3813,29 +3811,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3850,14 +3848,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3870,29 +3868,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3907,14 +3905,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -3927,29 +3925,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -3964,14 +3962,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -3984,29 +3982,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4021,14 +4019,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4041,29 +4039,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4076,7 +4074,7 @@ export const data = [
         id: 4,
         name: 'balance',
 
-        sumСal: '800 ккал',
+        sumСal: '1800 ккал',
         days: [
           {
             id: 1,
@@ -4086,14 +4084,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4106,29 +4104,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -4143,14 +4141,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -4163,29 +4161,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4200,14 +4198,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4220,29 +4218,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4257,14 +4255,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4277,29 +4275,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4314,14 +4312,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4334,29 +4332,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4371,14 +4369,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -4391,29 +4389,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4428,14 +4426,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4448,29 +4446,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4493,14 +4491,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4513,29 +4511,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -4550,14 +4548,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -4570,29 +4568,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4607,14 +4605,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4627,29 +4625,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4664,14 +4662,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4684,29 +4682,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4721,14 +4719,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4741,29 +4739,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4778,14 +4776,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -4798,29 +4796,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4835,14 +4833,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4855,29 +4853,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -4900,14 +4898,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -4920,29 +4918,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -4957,14 +4955,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -4977,29 +4975,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5014,14 +5012,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5034,29 +5032,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5071,14 +5069,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5091,29 +5089,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5128,14 +5126,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5148,29 +5146,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5185,14 +5183,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -5205,29 +5203,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5242,14 +5240,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5262,29 +5260,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5308,14 +5306,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5328,29 +5326,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '120гр',
+                      weight: '120*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '180гр',
+                  weight: '180*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '220гр',
+                      weight: '220*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                   ],
                 },
@@ -5365,14 +5363,14 @@ export const data = [
                 breakfast: {
                   time: '7:00 - 9:00',
                   dish: 'Каша с молоком и бананом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '10:00 - 12:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -5385,29 +5383,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:00 - 17:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:00 - 20:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5422,14 +5420,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5442,29 +5440,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5479,14 +5477,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5499,29 +5497,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5536,14 +5534,14 @@ export const data = [
                 breakfast: {
                   time: '7:30 - 9:30',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '10:30 - 12:30',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5556,29 +5554,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '16:30 - 17:30',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '19:30 - 20:30',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5593,14 +5591,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Панкейки с фруктами и сиропом',
-                  weight: '250гр',
+                  weight: '250*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с клубникой и мюсли',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Печенье с орехами и изюмом',
@@ -5613,29 +5611,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный шашлык с овощами',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                     {
                       name: 'Салат с помидорами и сыром',
-                      weight: '150гр',
+                      weight: '150*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожное суфле с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбный пирог с картофелем',
-                      weight: '250гр',
+                      weight: '250*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
@@ -5650,14 +5648,14 @@ export const data = [
                 breakfast: {
                   time: '8:00 - 10:00',
                   dish: 'Омлет с грибами и сыром',
-                  weight: '220гр',
+                  weight: '220*2гр',
                 },
                 secondBreakfast: {
                   time: '11:00 - 13:00',
                   dishes: [
                     {
                       name: 'Йогурт с малиной и гранолой',
-                      weight: '230гр',
+                      weight: '230*2гр',
                     },
                     {
                       name: 'Печенье с орехами и шоколадом',
@@ -5670,29 +5668,29 @@ export const data = [
                   dishes: [
                     {
                       name: 'Куриный суп с вермишелью',
-                      weight: '180гр',
+                      weight: '180*2гр',
                     },
                     {
                       name: 'Салат с помидорами и огурцами',
-                      weight: '140гр',
+                      weight: '140*2гр',
                     },
                   ],
                 },
                 snack: {
                   time: '17:00 - 18:00',
                   dish: 'Творожная запеканка с фруктами',
-                  weight: '200гр',
+                  weight: '200*2гр',
                 },
                 dinner: {
                   time: '20:00 - 21:00',
                   dishes: [
                     {
                       name: 'Рыбные котлеты с картофелем',
-                      weight: '240гр',
+                      weight: '240*2гр',
                     },
                     {
                       name: 'Овощи на гриле',
-                      weight: '200гр',
+                      weight: '200*2гр',
                     },
                   ],
                 },
